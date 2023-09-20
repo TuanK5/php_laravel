@@ -1,0 +1,504 @@
+        /* CSS cho header */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+        header ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        header ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        header ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* CSS cho content */
+        .content {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .main-content {
+            flex-basis: 70%;
+        }
+
+/* //------------------------------------ */
+* {box-sizing:border-box}
+/* Slideshow container */
+.slideshow{
+    height: 350px;
+}
+.mySlides img {
+    height: 350px;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}        
+/* -------------------------------------------- /////////////////////////////////////////////*/
+           /* CSS cho box sản phẩm */
+          .product-box {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:space-between;
+            margin-top: 20px;
+        }
+
+        .product {
+            width: 200px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .product img {
+            width: 150px;
+            height: 200px;
+            margin-bottom: 10px;
+        }
+
+        .product h3 {
+            margin-bottom: 5px;
+        }
+
+        .product p {
+            color: #888;
+        }
+
+        /* CSS cho slidebar */
+        .slibar-content{
+            flex-basis: 30%;
+            padding: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .slidebar-box1 {
+            height: 100%;
+
+
+        }
+        .slidebar-box2 {
+            height: 100%;
+            background-color: #e8d967;
+        }
+        .slidebar-box3 {
+            height: 100%;
+            background-color: #c4edc6;
+        }
+
+        /* CSS cho footer */
+        footer {
+            display: flex;
+            justify-content: space-around;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            height: 100%;
+        }
+            /* CSS cho footer */
+            .footer {
+                background-color: #f1f1f1;
+                padding: 20px;
+                text-align: center;
+            }
+    
+            .footer p {
+                margin-bottom: 10px;
+            }
+    
+            .footer .address {
+                font-weight: bold;
+            }
+    
+            .footer .contact-info {
+                margin-top: 10px;
+            }
+            .box-ft{
+                background-color: orangered;
+            }
+
+        /* CSS cho form đăng nhập */
+        .login-form {
+            width: 90%;
+            margin: 0 auto;
+            margin-bottom: 5px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #72dddb;
+        }
+
+        .login-form input[type="text"],
+        .login-form input[type="password"] {
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .login-form input[type="checkbox"] {
+            margin-bottom: 5px;
+        }
+
+        .login-form input[type="submit"] {
+            margin-left: 20%;
+            width: 60%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .login-form input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        .login-form .links {
+            margin-top: 5px;
+        }
+
+        .login-form .links a {
+            margin-right: 10px;
+            text-decoration: none;
+        } 
+
+                     /* CSS cho danh sách */
+                     .category-box {
+                        width: 90%;
+                        margin: 0 auto;
+                        margin-bottom: 5px;
+                        padding: 10px;
+
+                        border-radius: 5px;
+                    }
+            
+                    .category-box h2 {
+                        height: 10px;
+                        margin-top: 0px;
+                    }
+            
+                    .category-box ul {
+                        list-style-type: none;
+                        padding: 0;
+                        margin: 0;
+                    }
+            
+                    .category-box ul li {
+                        text-align: center;
+                        height: 30px;
+                        background-color: red;
+                        margin-bottom: 10px;
+                        padding: 7px;
+                        box-sizing: border-box;
+                    }
+            
+                    .search-box input[type="text"] {
+                        width: 90%;
+                        padding: 5px;
+                        border: 1px solid #ccc;
+                        border-radius: 5px;
+                    }
+            
+                    .search-box input[type="submit"] {
+                        margin-left: 20%;
+                        width: 60%;
+                        padding: 10px;
+                        margin-bottom: 15px;
+                        background-color: #4CAF50;
+                        color: white;
+                        border: none;
+                        border-radius: 5px;
+                        cursor: pointer;
+                    }
+            
+                    .search-box input[type="submit"]:hover {
+                        background-color: #45a049;
+                    }
+ 
+/* CSS cho danh sách */
+        .top-10-box {
+            width: 90%;
+            margin: 0 auto;
+            margin-bottom: 5px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .top-10-box h2 {
+            margin-top: 0;
+        }
+
+        .top-10-box ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .top-10-box ul li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .top-10-box ul li img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+        /* CSS chung cho các hình ảnh */
+        .category-icon {
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+  
+        /* them moi loai hang */
+.title-content{
+    width: 90%;
+    color: red;
+    font-size: larger;
+    text-align: center;
+    padding: 15px;
+    margin: 5px 40px;
+    border: 1px solid #46d71a;
+    border-radius: 5px;
+};
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .form-box {
+   margin-left: 30%;
+    
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 400px;
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 95%;
+    padding: 5px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .button-group button {
+    margin: 0 5px;
+    padding: 10px 20px;
+  }
+  /* ds danh muc */
+  .rowformds {
+    margin: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .checkbox-cell {
+    text-align: center;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .action-buttons button {
+    padding: 5px 10px;
+  }
+
+   /* CSS cho box sản phẩm chi tiet*/
+
+  .product-spct{
+    margin: 5px 200px 5px 205px;
+    width: 50%;
+    border: 5px solid #e30f0f;
+    border-radius: 5px;
+    text-align: center;
+}
+  /* CSS cho box comment của khách hàng */
+  .comment-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+
+  /* CSS cho ô nhập comment */
+  .comment-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* CSS cho nút submit */
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* CSS cho box sản phẩm cùng loại */
+  .related-products-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  .conten-comemt{
+    width: 100%;
+    height: 100%;
+    border: 3px solid #646464;
+
+  }
+  /* Thong tin dat hang */
+  .form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .form-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+
+  .form-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .datvamua{
+    display: flex;
+    justify-content: space-around;
+  }
